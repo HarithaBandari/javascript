@@ -1,0 +1,15 @@
+var fruits=['apple','banana'];
+ var newLength = fruits.push('Orange');
+ var last = fruits.pop(); 
+ var middle=fruits.join('-');
+ var first = fruits.shift(); 
+ var us = fruits.unshift('Strawberry');
+ var pos = fruits.indexOf('Strawberry');
+ var removedItem = fruits.splice(pos, 1); 
+ console.log(newLength);
+ console.log(last);
+ console.log(middle);
+ console.log(first);
+ console.log(us);
+ console.log(pos);
+ console.log(removedItem);
